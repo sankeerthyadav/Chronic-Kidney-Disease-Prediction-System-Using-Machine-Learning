@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/kidney.png" width="180">
+  <img src="Screenshots/kidney.png" width="180">
 </p>
 
 <h1 align="center">
@@ -31,7 +31,7 @@ The application is built using Streamlit and provides an intuitive interface sui
 ---
 
 ## 🎯 Objectives
-
+```
 ✔ Early detection of CKD using Machine Learning
 ✔ Handle missing data, outliers, and class imbalance
 ✔ Compare 7 ML models and select the best one
@@ -42,6 +42,7 @@ The application is built using Streamlit and provides an intuitive interface sui
 ✔ Prediction History Management
 ✔ Explainable AI using SHAP
 ✔ Real-time Clinical Interpretation
+```
 ---
 
 ## 🧠 Machine Learning Models Used
@@ -84,7 +85,7 @@ We trained and compared the following models:
 
 ## ⚙️ Methodology
 <p align="center">
-  <img src="screenshots/Machine Learning Workflow.png" width="900">
+  <img src="Screenshots/Machine Learning Workflow.png" width="900">
 </p>
 
 
@@ -113,7 +114,7 @@ Random Forest achieved **perfect performance on the test set (80 samples).**
 ### Confusion Matrix
 
 <p align="center">
-  <img src="screenshots/Confusion Matrix.png" width="700">
+  <img src="Screenshots/Confusion Matrix.png" width="700">
 </p>
 Interpretation:
 
@@ -124,13 +125,13 @@ Interpretation:
 ### ROC Curve
 
 <p align="center">
-  <img src="screenshots/ROC-Curve.png" width="700">
+  <img src="Screenshots/ROC-Curve.png" width="700">
 </p>
 
 ### Precision Recall Curve
 
 <p align="center">
-  <img src="screenshots/PR-Curve.png" width="700">
+  <img src="Screenshots/PR-Curve.png" width="700">
 </p>
 
 ---
@@ -242,40 +243,40 @@ All user prediction records are stored in a MySQL database and can be viewed lat
 # 📸 Application Screenshots
 ## 🔐 Login Page
 
-<img src="screenshots/Login.png" width="900">
+<img src="Screenshots/Login.png" width="900">
 ## 📖 🧭 Navigation & About the Project Page
 
-<img src="screenshots/Navigation and About.png" width="900">
+<img src="Screenshots/Navigation and About.png" width="900">
 ## 📋 User Instructions
 
 <img src="screenshots/User Instructions.png" width="900">
 ## 🏥 Medical Reference
 
-<img src="screenshots/Medical Information.png" width="900">
+<img src="Screenshots/Medical Information.png" width="900">
 ## 📝 Patient Input Parameters
 
-<img src="screenshots/Input Parameters.png" width="900">
+<img src="Screenshots/Input Parameters.png" width="900">
 ## 🧠 CKD Prediction
 
-<img src="screenshots/Prediction.png" width="900">
+<img src="Screenshots/Prediction.png" width="900">
 ## 🩺 Clinical Interpretation
 
-<img src="screenshots/Clinical Interpretation.png" width="900">
+<img src="Screenshots/Clinical Interpretation.png" width="900">
 ## 📊 SHAP Explainability
 
-<img src="screenshots/Shap.png" width="900">
+<img src="Screenshots/Shap.png" width="900">
 ## 🌊 SHAP Waterfall Plot
 
-<img src="screenshots/Waterfall Plot.png" width="900">
+<img src="Screenshots/Waterfall Plot.png" width="900">
 ## 🔬 Feature Contribution Analysis
 
-<img src="screenshots/Feature Explanation.png" width="900">
+<img src="Screenshots/Feature Explanation.png" width="900">
 ## ✔️ SHAP Additive Check
 
-<img src="screenshots/Additive Check.png" width="900">
+<img src="Screenshots/Additive Check.png" width="900">
 ## 📜 Prediction History
 
-<img src="screenshots/Prediction History.png" width="900">
+<img src="Screenshots/Prediction History.png" width="900">
 
 The main entry point is:
 
