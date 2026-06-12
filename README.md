@@ -1,6 +1,14 @@
-# chronic-kidney-disease-prediction-using-machine-learning
-# 🩺<img width="118" height="85" alt="image" src="https://github.com/user-attachments/assets/945ea020-8a50-4fa3-8141-48f7c9dc7245" />
- Chronic Kidney Disease (CKD) Prediction using Machine Learning
+<p align="center">
+  <img src="screenshots/kidney.png" width="180">
+</p>
+
+<h1 align="center">
+🩺 Chronic Kidney Disease Prediction System using Machine Learning
+</h1>
+
+<p align="center">
+AI-Powered Kidney Health Assessment with Explainable AI, eGFR Analysis, User Authentication, and Prediction History Tracking
+</p>
 
 ---
 
@@ -8,14 +16,18 @@
 
 Chronic Kidney Disease (CKD) is a major non-communicable disease affecting 10–15% of the global population. Early detection is crucial to prevent severe complications such as hypertension, anemia, bone disorders, and kidney failure.
 
-This project develops an **intelligent machine learning-based clinical decision support system** that:
+This project presents a complete Machine Learning-powered Clinical Decision Support System capable of:
 
-* Predicts whether a patient has CKD or not (**binary classification**)
-* Dynamically estimates **eGFR (Estimated Glomerular Filtration Rate)**
-* Interprets the **CKD stage (Stage 1 to Stage 5)**
-* Explains predictions using **SHAP (Explainable AI)**
-* Provides a **user-friendly Streamlit web application**
+- Predicting Chronic Kidney Disease (CKD)
+- Calculating dynamic eGFR values using the CKD-EPI 2021 equation
+- Determining CKD stage automatically
+- Providing Clinical Interpretation based on patient parameters
+- Explaining model decisions using SHAP Explainable AI
+- Managing users through Login & Registration
+- Storing prediction history using MySQL database
+- Allowing users to review previous predictions
 
+The application is built using Streamlit and provides an intuitive interface suitable for educational, research, and clinical decision-support purposes.
 ---
 
 ## 🎯 Objectives
@@ -26,7 +38,10 @@ This project develops an **intelligent machine learning-based clinical decision 
 ✔ Use **Random Forest** as the final model
 ✔ Integrate **SHAP for interpretability**
 ✔ Deploy as a web app using **Streamlit**
-
+✔ User Authentication using MySQL
+✔ Prediction History Management
+✔ Explainable AI using SHAP
+✔ Real-time Clinical Interpretation
 ---
 
 ## 🧠 Machine Learning Models Used
@@ -68,7 +83,9 @@ We trained and compared the following models:
 ---
 
 ## ⚙️ Methodology
-<img width="982" height="947" alt="image" src="https://github.com/user-attachments/assets/6bd17c2e-c9e2-477d-8b56-bb257d6acc7e" />
+<p align="center">
+  <img src="screenshots/Machine Learning Workflow.png" width="900">
+</p>
 
 
 ### Step 1 — Data Preprocessing
@@ -95,16 +112,26 @@ Random Forest achieved **perfect performance on the test set (80 samples).**
 
 ### Confusion Matrix
 
-```
-[[30  0]
- [ 0 50]]
-```
-
+<p align="center">
+  <img src="screenshots/Confusion Matrix.png" width="700">
+</p>
 Interpretation:
 
 * 30 patients correctly predicted as **NOT CKD (Class 0)**
 * 50 patients correctly predicted as **CKD (Class 1)**
 * **0 false positives and 0 false negatives**
+
+### ROC Curve
+
+<p align="center">
+  <img src="screenshots/ROC-Curve.png" width="700">
+</p>
+
+### Precision Recall Curve
+
+<p align="center">
+  <img src="screenshots/PR-Curve.png" width="700">
+</p>
 
 ---
 
@@ -198,10 +225,57 @@ SHAP makes the system:
 
 The system is deployed as a **multi-page Streamlit web app** with the following pages:
 
-1️⃣ **About the Project** → (`about.py`)
-2️⃣ **User Instructions** → (`user_instructions.py`)
-3️⃣ **Model Prediction & SHAP** → (`model.py`)
-4️⃣ **Medical References** → (`medicalinfo.py`)
+1. 🔐 Login System
+2. 📝 User Registration
+3. 📖 About the Project
+4. 📋 User Instructions
+5. 🏥 Medical Reference
+6. 🧠 CKD Prediction Module
+7. 🧪 eGFR Calculator
+8. 🩺 Clinical Interpretation
+9. 📊 SHAP Explainable AI
+10. 📜 Prediction History
+11. 🚪 Secure Logout
+
+All user prediction records are stored in a MySQL database and can be viewed later through the Prediction History module.
+
+# 📸 Application Screenshots
+## 🔐 Login Page
+
+<img src="screenshots/Login.png" width="900">
+## 📖 🧭 Navigation & About the Project Page
+
+<img src="screenshots/Navigation and About.png" width="900">
+## 📋 User Instructions
+
+<img src="screenshots/User Instructions.png" width="900">
+## 🏥 Medical Reference
+
+<img src="screenshots/Medical Information.png" width="900">
+## 📝 Patient Input Parameters
+
+<img src="screenshots/Input Parameters.png" width="900">
+## 🧠 CKD Prediction
+
+<img src="screenshots/Prediction.png" width="900">
+## 🩺 Clinical Interpretation
+
+<img src="screenshots/Clinical Interpretation.png" width="900">
+## 📊 SHAP Explainability
+
+<img src="screenshots/Shap.png" width="900">
+## 🌊 SHAP Waterfall Plot
+
+<img src="screenshots/Waterfall Plot.png" width="900">
+## 🔬 Feature Contribution Analysis
+
+<img src="screenshots/Feature Explanation.png" width="900">
+## ✔️ SHAP Additive Check
+
+<img src="screenshots/Additive Check.png" width="900">
+## 📜 Prediction History
+
+<img src="screenshots/Prediction History.png" width="900">
 
 The main entry point is:
 
@@ -213,14 +287,18 @@ app.py
 
 ## 🛠️ Tech Stack
 
-| Component      | Tool                        |
-| -------------- | --------------------------- |
-| Language       | Python, HTML, CSS           |
-| ML Library     | Scikit-learn                |
-| Explainability | SHAP                        |
-| Visualization  | Matplotlib, Seaborn, Plotly |
-| Web App        | Streamlit                   |
-| Platform       | Google Colab, VS code       |
+| Component            | Tool                        |
+| -------------------- | --------------------------- |
+| Programming Language | Python                      |
+| ML Library           | Scikit-learn                |
+| Explainable AI       | SHAP                        |
+| DataBase             | mySQL                       |
+| Authentication       | bycrypt                     |
+| Data Preprocessing   | Pandas,Numpy                |
+| Visualization        | Matplotlib, Seaborn, Plotly |
+| Web App              | Streamlit,HTML,CSS          |
+| Development IDE      | PyCharm                     |
+| Model Development    | Google Colab                |
 
 ---
 
@@ -249,31 +327,47 @@ streamlit run app.py
 
 ## 📁 Repository Structure
 
-```
-ckd-prediction/
-│── Kidney_disease.csv
-│── ckd_random_forest_model.pkl
-│── app.py
-│── model.py
-│── user_instructions.py
-│── about.py
-│── medicalinfo.py
-│── requirements.txt
-└── README.md
+```text
+CKD-Prediction-System
+│
+├── app.py
+├── model.py
+├── database.py
+├── db.py
+├── login.py
+├── register.py
+├── history.py
+├── about.py
+├── medicalinfo.py
+├── user_instructions.py
+├── requirements.txt
+├── README.md
+│
+├── screenshots/
+│
+├── Ckd_model.pkl
+├── kidney_disease.csv
+└── preprocessed_ckd.csv
 ```
 
 ---
 
 ## ✅ Strengths
 
-* **100% test accuracy**
-* Handles missing data & imbalance
-* Explainable AI using SHAP
-* Real-time eGFR & staging
-* Doctor-friendly interface
+```md
+## ⭐ Key Features
 
+- **100% test accuracy**
+- Secure Login & Registration
+- MySQL Database Integration
+- Prediction History Tracking
+- Explainable AI using SHAP
+- Dynamic eGFR Calculation & staging
+- Clinical Interpretation Engine
+- Interactive Streamlit Interface
+- User-Friendly Dashboard
 ---
-
+```
 ## ⚠️ Limitations
 
 * Dataset is relatively small (400 samples)
