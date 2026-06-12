@@ -114,7 +114,7 @@ Random Forest achieved **perfect performance on the test set (80 samples).**
 ### Confusion Matrix
 
 <p align="center">
-  <img src="Screenshots/Confusion- Matrix.png" width="700">
+  <img src="Screenshots/Confusion-Matrix.png" width="700">
 </p>
 Interpretation:
 
@@ -251,7 +251,7 @@ All user prediction records are stored in a MySQL database and can be viewed lat
 
 ## 📋 User Instructions
 
-<img src="screenshots/User Instructions.png" width="900">
+<img src="Screenshots/User Instructions.png" width="900">
 
 ## 🏥 Medical Reference
 
