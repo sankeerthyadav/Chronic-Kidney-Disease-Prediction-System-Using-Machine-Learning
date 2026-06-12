@@ -114,7 +114,7 @@ Random Forest achieved **perfect performance on the test set (80 samples).**
 ### Confusion Matrix
 
 <p align="center">
-  <img src="Screenshots/Confusion Matrix.png" width="700">
+  <img src="Screenshots/Confusion- Matrix.png" width="700">
 </p>
 Interpretation:
 
@@ -244,36 +244,47 @@ All user prediction records are stored in a MySQL database and can be viewed lat
 ## 🔐 Login Page
 
 <img src="Screenshots/Login.png" width="900">
+
 ## 📖 🧭 Navigation & About the Project Page
 
 <img src="Screenshots/Navigation and About.png" width="900">
+
 ## 📋 User Instructions
 
 <img src="screenshots/User Instructions.png" width="900">
+
 ## 🏥 Medical Reference
 
 <img src="Screenshots/Medical Information.png" width="900">
+
 ## 📝 Patient Input Parameters
 
 <img src="Screenshots/Input Parameters.png" width="900">
+
 ## 🧠 CKD Prediction
 
 <img src="Screenshots/Prediction.png" width="900">
+
 ## 🩺 Clinical Interpretation
 
 <img src="Screenshots/Clinical Interpretation.png" width="900">
+
 ## 📊 SHAP Explainability
 
 <img src="Screenshots/Shap.png" width="900">
+
 ## 🌊 SHAP Waterfall Plot
 
 <img src="Screenshots/Waterfall Plot.png" width="900">
+
 ## 🔬 Feature Contribution Analysis
 
 <img src="Screenshots/Feature Explanation.png" width="900">
+
 ## ✔️ SHAP Additive Check
 
 <img src="Screenshots/Additive Check.png" width="900">
+
 ## 📜 Prediction History
 
 <img src="Screenshots/Prediction History.png" width="900">
