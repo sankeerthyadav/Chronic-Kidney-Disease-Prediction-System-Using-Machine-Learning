@@ -366,9 +366,11 @@ CKD-Prediction-System
 
 ## ✅ Strengths
 
-```md
+
 
 ## ⭐ Key Features
+
+```md
 
 - **100% test accuracy**
 - Secure Login & Registration
