@@ -367,6 +367,7 @@ CKD-Prediction-System
 ## ✅ Strengths
 
 ```md
+
 ## ⭐ Key Features
 
 - **100% test accuracy**
@@ -378,8 +379,9 @@ CKD-Prediction-System
 - Clinical Interpretation Engine
 - Interactive Streamlit Interface
 - User-Friendly Dashboard
----
+
 ```
+---
 ## ⚠️ Limitations
 
 * Dataset is relatively small (400 samples)
