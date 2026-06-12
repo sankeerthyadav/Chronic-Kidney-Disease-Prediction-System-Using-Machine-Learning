@@ -263,7 +263,7 @@ All user prediction records are stored in a MySQL database and can be viewed lat
 
 ## 🧠 CKD Prediction
 
-<img src="Screenshots/Prediction.png" width="900">
+<img src="Screenshots/Predction.png" width="900">
 
 ## 🩺 Clinical Interpretation
 
