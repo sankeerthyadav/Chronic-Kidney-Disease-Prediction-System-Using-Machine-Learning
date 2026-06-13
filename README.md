@@ -1,15 +1,21 @@
-<p align="center">
-  <img src="Screenshots/kidney.png" width="180">
-</p>
+<table>
+<tr>
+<td width="220">
 
-<h1 align="center">
-🩺 Chronic Kidney Disease Prediction System using Machine Learning
-</h1>
+<img src="Screenshots/kidney.png" width="180">
+
+</td>
+
+<td>
+
+<h1>🩺 Chronic Kidney Disease Prediction System using Machine Learning</h1>
 
 <p align="center">
 AI-Powered Kidney Health Assessment with Explainable AI, eGFR Analysis, User Authentication, and Prediction History Tracking
 </p>
-
+</td>
+</tr>
+</table>
 ---
 
 ## 📌 About the Project
